@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Projeto Android</string>
+    <string name="fique_tranquilo">Fique tranquilo. Nós estamos em alerta.</string>
+    <string name="login">Login</string>
+    <string name="btnCadastre_se">Cadastre-se</string>
+    <string name="txtEntrar">ENTRAR</string>
+    <string name="relaxa">Relaxa! Nós estamos de olho por você.</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="esqueci_a_senha">ESQUECI A SENHA</string>
+    <string name="digite_sua_senha">digite sua senha</string>
+    <string name="digite_seu_e_mail">digite seu e-mail</string>
+    <string name="txt_cadastre_se">CADASTRE-SE</string>
+    <string name="bem_vindo_pe_dagua">Seja bem vindo ao Pé d\'água!</string>
+    <string name="nome_completo">nome completo</string>
+    <string name="cidade">cidade</string>
+    <string name="bairro">bairro</string>
+    <string name="cep">CEP</string>
+    <string name="rua">rua</string>
+    <string name="txt_recuperar_senha">Recuperar senha</string>
+    <string name="txt_aceite_os_termos_de_uso">aceite os termos de uso</string>
+</resources>
