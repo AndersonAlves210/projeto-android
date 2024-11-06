@@ -1,38 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:background="@color/baby_blue"
-    >
+    android:background="@color/baby_blue">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_margin="15dp"
-        android:src="@drawable/_fb84f83_b7c5_4f83_99c6_9ddfd1fd4e2a" />
+        android:background="@drawable/round_style"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.706"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
 
     <TextView
         android:id="@+id/editTextText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
         android:layout_margin="20dp"
-        android:text="@string/fique_tranquilo"
-        android:textStyle="bold" />
+        android:layout_marginTop="44dp"
+        android:text="@string/saudacao"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintVertical_bias="0.082" />
 
     <Button
         android:id="@+id/btnLogin"
-        android:background="@drawable/round_style"
-        android:backgroundTint="@color/button_blue"
-        android:padding="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="@string/login" />
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_style"
+        android:backgroundTint="@color/button_blue"
+        android:padding="10dp"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextText"
+        app:layout_constraintVertical_bias="0.163" />
 
     <Button
         android:id="@+id/btnCadastrar"
@@ -42,5 +60,11 @@
         android:background="@drawable/round_style"
         android:backgroundTint="@color/button_blue"
         android:padding="10dp"
-        android:text="@string/btnCadastre_se" />
-</LinearLayout>
+        android:text="@string/btnCadastre_se"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnLogin"
+        app:layout_constraintVertical_bias="0.116" />
+</androidx.constraintlayout.widget.ConstraintLayout>

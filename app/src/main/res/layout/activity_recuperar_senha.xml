@@ -5,14 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Recuperar_senha"
+    tools:context=".ViewModel.RecuperarSenhaActivity"
     android:background="@color/baby_blue">
 
 
     <ImageButton
         android:id="@+id/btnVoltarRecuperarSenha"
-        android:layout_width="69dp"
-        android:layout_height="51dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
         android:src="@drawable/seta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <!-- ADICIONANDO PERMISSÕES PARA ACESSO À INTERNET -->
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -16,19 +18,22 @@
         android:theme="@style/Theme.ProjetoAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".Cadastrar"
+            android:name=".ViewModel.CityListActivity"
             android:exported="false" />
         <activity
-            android:name=".Recuperar_senha"
+            android:name=".ViewModel.CadastrarActivity"
             android:exported="false" />
         <activity
-            android:name=".Inicio"
+            android:name=".ViewModel.RecuperarSenhaActivity"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name=".ViewModel.InicioActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ViewModel.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewModel.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.ProjetoAndroid">
             <intent-filter>

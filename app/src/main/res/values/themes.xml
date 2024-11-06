@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.ProjetoAndroid" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Base.Theme.ProjetoAndroid" parent="Theme.AppCompat.Light">
+    </style>
+    <style name="Theme.ProjetoAndroid" parent="Base.Theme.ProjetoAndroid">
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>"
+
 </resources>

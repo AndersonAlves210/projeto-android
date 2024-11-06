@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Projeto Android</string>
-    <string name="fique_tranquilo">Fique tranquilo. Nós estamos em alerta.</string>
+    <string name="app_name">Bem vindo</string>
+    <string name="saudacao">Seja bem vindo ao pé d agua.</string>
     <string name="login">Login</string>
     <string name="btnCadastre_se">Cadastre-se</string>
     <string name="txtEntrar">ENTRAR</string>
@@ -11,11 +11,23 @@
     <string name="digite_seu_e_mail">digite seu e-mail</string>
     <string name="txt_cadastre_se">CADASTRE-SE</string>
     <string name="bem_vindo_pe_dagua">Seja bem vindo ao Pé d\'água!</string>
-    <string name="nome_completo">nome completo</string>
+    <string name="nome">digite seu nome</string>
     <string name="cidade">cidade</string>
     <string name="bairro">bairro</string>
     <string name="cep">CEP</string>
     <string name="rua">rua</string>
     <string name="txt_recuperar_senha">Recuperar senha</string>
     <string name="txt_aceite_os_termos_de_uso">aceite os termos de uso</string>
+    <string name="localizacao">Localização</string>
+    <string name="atualizado_as">Atualizado às</string>
+    <string name="ceu_limpo">Céu limpo</string>
+    <string name="temp_min">Temp min</string>
+    <string name="temp_max">Temp máx</string>
+    <string name="nascer_sol">Nascer do Sol</string>
+    <string name="por_do_sol">Pôr do sol</string>
+    <string name="vento">Vento</string>
+    <string name="pressao">Pressão</string>
+    <string name="umidade">Umidade</string>
+    <string name="criado_por">Criado por</string>
+    <string name="algo_deu_errado">Algo deu errado</string>
 </resources>
